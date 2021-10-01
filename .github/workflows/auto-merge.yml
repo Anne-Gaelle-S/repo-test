@@ -9,10 +9,11 @@ on:
       - completed
 
 permissions:
+  actions: write
   checks: read
   contents: write
   pull-requests: write
-  repository-projects: write
+  security-events: read
   statuses: read
 
 jobs:

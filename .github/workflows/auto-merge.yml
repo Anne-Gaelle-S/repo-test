@@ -9,8 +9,16 @@ on:
       - completed
 
 permissions:
-  contents: read
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  issues: write
+  packages: write
   pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
 
 jobs:
   automerge:
@@ -20,7 +28,6 @@ jobs:
         uses: "pascalgn/automerge-action@v0.14.3"
         env:
           GITHUB_TOKEN: "${{ github.token }}"
-          LOG: "TRACE"
           MERGE_LABELS: "merge"
           MERGE_COMMIT_MESSAGE: "pull-request-title"
           UPDATE_LABELS: "merge"

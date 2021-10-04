@@ -11,9 +11,9 @@ on:
 permissions:
   checks: read
   statuses: read
+  pull-requests: read
   contents: write
   actions: write
-  pull-requests: write
 
 jobs:
   automerge:

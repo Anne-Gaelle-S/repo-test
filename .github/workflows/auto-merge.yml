@@ -9,12 +9,11 @@ on:
       - completed
 
 permissions:
-  actions: write
   checks: read
-  contents: write
-  pull-requests: write
   security-events: read
   statuses: read
+  contents: write
+  pull-requests: write
 
 jobs:
   automerge:

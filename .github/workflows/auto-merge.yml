@@ -11,7 +11,7 @@ on:
 permissions:
   checks: read
   statuses: read
-  contents: write
+  contents: read
   actions: write
 
 jobs:

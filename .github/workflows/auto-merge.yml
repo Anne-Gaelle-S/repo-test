@@ -24,6 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ github.token }}"
           MERGE_LABELS: "merge"
+          LOG: "TRACE"
           MERGE_COMMIT_MESSAGE: "pull-request-title"
           UPDATE_LABELS: "merge"
           UPDATE_METHOD: "rebase"

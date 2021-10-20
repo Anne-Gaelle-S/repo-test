@@ -12,6 +12,8 @@ permissions:
   checks: read
   contents: write
   actions: write
+  statuses: read
+  security-events: read
 
 jobs:
   automerge:

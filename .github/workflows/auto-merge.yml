@@ -10,6 +10,9 @@ on:
 
 permissions:
   checks: read
+  statuses: read
+  repository-projects: read
+  pull-requests: read
   contents: write
   actions: write
 

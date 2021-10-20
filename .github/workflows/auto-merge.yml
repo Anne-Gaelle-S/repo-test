@@ -12,6 +12,7 @@ permissions:
   checks: read
   contents: write
   actions: write
+  deployments: write
 
 jobs:
   automerge:
